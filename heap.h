@@ -3,7 +3,7 @@
 
 class MinHeap {
 public:
-    MinHeap(int capacity);
+    MinHeap(int c);
     ~MinHeap();
     void insert(int vertex, int key);
     int extractMin();
@@ -19,6 +19,7 @@ private:
     int size;
 
     void minHeapify(int idx);
+
 };
 
 #endif
