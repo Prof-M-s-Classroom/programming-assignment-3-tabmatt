@@ -11,6 +11,7 @@ public:
 private:
     int** adjMatrix;
     int numVertices;
+    int dne;
 };
 
 #endif
